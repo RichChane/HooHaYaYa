@@ -1,0 +1,118 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - CocoaAsyncSocket (7.6.3)
+  - CTMediator (25)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GPUImage (0.1.7)
+  - HandyFrame (1.2.0)
+  - IOSKit (1.0.0):
+    - GPUImage
+    - KPFoundation
+    - MBProgressHUD
+    - MJRefresh
+    - pop (~> 1.0)
+    - SDWebImage
+    - YYKit
+  - KPFoundation (0.1.1):
+    - AFNetworking
+    - CocoaAsyncSocket
+    - FMDB
+    - KPFoundation/Module (= 0.1.1)
+    - KPFoundation/ObjSafe (= 0.1.1)
+    - ZipArchive
+  - KPFoundation/Module (0.1.1):
+    - AFNetworking
+    - CocoaAsyncSocket
+    - FMDB
+    - ZipArchive
+  - KPFoundation/ObjSafe (0.1.1):
+    - AFNetworking
+    - CocoaAsyncSocket
+    - FMDB
+    - ZipArchive
+  - LKDBHelper (2.5.1):
+    - LKDBHelper/standard (= 2.5.1)
+  - LKDBHelper/standard (2.5.1):
+    - FMDB
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.15.7)
+  - pop (1.0.12)
+  - SDWebImage (4.4.5):
+    - SDWebImage/Core (= 4.4.5)
+  - SDWebImage/Core (4.4.5)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+  - ZipArchive (1.4.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - CTMediator
+  - HandyFrame
+  - IOSKit (from `http://kp-gerrit.kptom.com/kp_ios_uikit.git`, branch `master`)
+  - LKDBHelper
+  - MJRefresh
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - CocoaAsyncSocket
+    - CTMediator
+    - FMDB
+    - GPUImage
+    - HandyFrame
+    - KPFoundation
+    - LKDBHelper
+    - MBProgressHUD
+    - MJRefresh
+    - pop
+    - SDWebImage
+    - YYKit
+    - ZipArchive
+
+EXTERNAL SOURCES:
+  IOSKit:
+    :branch: master
+    :git: http://kp-gerrit.kptom.com/kp_ios_uikit.git
+
+CHECKOUT OPTIONS:
+  IOSKit:
+    :commit: be861b3c7e4fd0dec6a50bbdd1d722f9f844eb92
+    :git: http://kp-gerrit.kptom.com/kp_ios_uikit.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  HandyFrame: 437df83ba7563c56cd55b9bd0128561995463110
+  IOSKit: 53472274798efa4ce7a4b82b5a526e55ef811f45
+  KPFoundation: a2f99381fab3d38cd777d4b4c8eac503e62ffa7d
+  LKDBHelper: 9a276ba51f2e16263d46a9517e16cc9b03472664
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  SDWebImage: ecc03494e973b93b80213649d32175f8d2d17d4d
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
+
+PODFILE CHECKSUM: d4fba70331c8b059244f30571bbeb4d784e6c5e9
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,1 @@
+../../../KPFoundation/KPFoundation/Module/Other/GeneralUse+Compress.h

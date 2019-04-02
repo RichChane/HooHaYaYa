@@ -1,0 +1,47 @@
+{
+  "name": "IOSKit",
+  "version": "1.0.0",
+  "summary": "UI方面组件 IOSKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://www.baidu.com/kuaipi_ios/IOSKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zyyuann01": "302836733@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/grpc/grpc.git"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": [
+    "{IOSKit/Classes/UnitBar,IOSKit/Classes/UnitNav,IOSKit/Classes/GeneralUI,IOSKit/Classes/MetaBall,IOSKit/Classes/UnitSearch,IOSKit/Classes/UnitTable,IOSKit/Classes/Photo,IOSKit/Classes/ZYNetworkAccessibity,IOSKit/Classes/Categry,IOSKit/Classes/pch,IOSKit/Classes/MJRefreshExtern}{/}**/*",
+    "IOSKit/Classes/IOSKit.h"
+  ],
+  "dependencies": {
+    "SDWebImage": [
+
+    ],
+    "GPUImage": [
+
+    ],
+    "pop": [
+      "~> 1.0"
+    ],
+    "MJRefresh": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "KPFoundation": [
+
+    ],
+    "YYKit": [
+
+    ]
+  }
+}

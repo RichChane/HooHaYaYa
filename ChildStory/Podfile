@@ -1,0 +1,15 @@
+
+platform :ios, '8.0'
+
+
+target 'ChildStory' do
+    
+    pod 'IOSKit',:git => 'http://kp-gerrit.kptom.com/kp_ios_uikit.git',:branch => 'master'
+    
+    pod 'LKDBHelper'
+    pod 'MJRefresh'
+    pod "AFNetworking"
+    pod "HandyFrame"
+    pod "CTMediator"
+    
+end
